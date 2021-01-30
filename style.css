@@ -1,0 +1,249 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: #0a043c;
+    width: 100%;
+    height: auto;
+}
+nav{
+    display: flex;
+}
+.logo{
+    width: 50%;
+    padding-left: 50px;  
+}
+.logo img{
+    width: 60px;
+    margin: 10px;
+}
+.menu{
+    width: 50%;
+    height: 80px;
+}
+.menu ul{
+    width: 100%;
+    height: 80px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-right: 50px;
+    font-weight: bold;
+     
+}
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    color: white;
+}
+.hero h1{
+    font-weight: 900;
+    font-size: 60px;
+}
+.hero p{
+    font-size: 24px;
+}
+.hero p{
+    padding: 30px 0;
+   
+    
+}
+.hero button{
+    border-radius: 30px;
+    cursor: pointer;
+    /* background-color: #ec4646; */
+    background-color: #ffcc29;
+    padding: 10px 40px;
+    font-size: 24px;
+    
+}
+
+/* srvices */
+
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 30px 0 0;
+}
+.heading p{
+    padding: 10px 0;
+}
+.heading h1{
+    color: #3490de;
+    font-weight: bold;
+    font-size: 40px;
+}
+i{
+    color: #16c79a;
+    padding: 10px;
+}
+
+.services_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    padding: 50px 0;
+    grid-gap: 30px;
+    width: 80%;
+    margin: auto;
+}
+.services_box{
+    display: grid;
+    place-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+.services_box p{
+    font-size: 20px;padding: 15px;
+}
+.services_box h2{
+    padding: 10px;
+}
+
+/* work */
+
+
+.work{
+    width: 100%;
+    height: auto;
+    background-color: #eefff7;
+}
+.work_sample{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 35px;
+    margin-top: 50px;
+
+}
+.work_item{
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.work_item img{
+    width: 250px;
+    height: 250px;
+}
+.work button, .about button, .project button{
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #ffcc29;
+    padding: 5px 30px;
+    font-size: 24px;
+    display: grid;
+    margin: 30px auto;
+}
+.about_sub{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    /* padding-top: 20px; */
+    grid-template-columns: repeat(2, 1fr);
+}
+.about_sub h2{
+    padding: 20px;
+    font-weight: bold;
+}
+.about_img img{
+    padding: 30px 30px;
+    width: 500px;
+    height: 350px;
+}
+
+/* start project */
+.project{
+    background-color: #0a043c;
+    width: 100%;
+    color: white;
+    display: grid;
+    place-items: center;
+
+}
+.project h1{
+    padding-top: 40px;
+}
+.project p{
+    padding: 15px;
+}
+
+/* news */
+.news{
+    display: flex;
+    background-color: #eefff7;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    justify-content: center;align-items: center;
+}
+.news input{
+    margin: 0 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+
+button{
+    border: none;
+}
+.news button{
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #ec4646;
+    padding: 5px 30px;
+    font-size: 24px;
+    display: grid;
+}
+/* quick+links */
+#quicklinks{
+    background-color: #252525;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+.quick_links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    width: 80%;
+    margin: auto;
+    place-items: center;
+    color: #63686e;
+}
+.quick-item{
+    cursor: pointer;
+}
+.quick-item p{
+    /* line-height: 1.2px; */
+    /* word-spacing: 1px; */
+    margin: 15px;
+}
+.quick-item h3{
+    color: white;
+    padding: 10px ;
+}
+
+footer{
+    width: 100%;
+    background-color: #1d1919;
+    color: grey;
+    height: 60px;
+    display: grid;
+    place-items: center;
+}
